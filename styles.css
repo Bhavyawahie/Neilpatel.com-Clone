@@ -1,6 +1,112 @@
-body{
-    background-color: #f16334;
+body {
+    margin: auto 0;
+    background-color: #f8f8f8;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
 }
-.table{
+
+#support {
+    position: fixed;
+    bottom: 2%;
+    left: 1%;
+
+}
+
+#support {
+    background: #f16334;
+    background-image: -webkit-linear-gradient(top, #f16334, #f16334);
+    background-image: -moz-linear-gradient(top, #f16334, #f16334);
+    background-image: -ms-linear-gradient(top, #f16334, #f16334);
+    background-image: -o-linear-gradient(top, #f16334, #f16334);
+    background-image: linear-gradient(to bottom, #f16334, #f16334);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-width: 0;
+}
+
+#support:hover {
+    background: #ff9340;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #f8f8f8;
+    height: 230px;
+}
+.bhavyawahie{
+    margin: 0 auto;
+    padding: 115px 0px 80px;
+    color:#f16334;
+    font-size: 200%;
+    font-weight: bolder;
+}
+.hr1{
+    margin: 0 auto;
+    width:80px;
+    border-style: solid hidden hidden;
+    border-top-color: #f16334;
+    border-width: 2px;
+
+}
+
+.landingpage{
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    padding: 0 150px;
+}
+.landingline{
+    margin-top: 20px;;
+    font-family: Helvetica, sans-serif;
+    color: #43464b;
+    font-size: 84px;
+    line-height: 94.0002px;
+}
+.landingpage_byline{
+
+    width: 725px;
+    height: 72px;
+    margin: 40px 227px 0 227px;
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: 36px;
+    font-family: 'Nunito Sans', sans-serif;
+    font
+
+}
+.form1{}
+
+.url{
+    width: 420px;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px;
+    font-family:'Nunito Sans', sans-serif; 
+    line-height: 25px;
+    font-size: 15px;
+    border-left: 2px solid #ffffff ;
+}
+.submit{
+    width: 189px;
+    height: 60px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-color: #f16334;
+    color: #ffffff;
+    line-height: 20px;
+    letter-spacing: 1.92px;
+    border-left: 2px solid #f16334 ;
+
+}
+
+.table {
     background-color: white;
 }
