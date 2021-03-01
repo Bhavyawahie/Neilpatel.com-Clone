@@ -4,6 +4,15 @@ body {
     font-family: 'Nunito Sans', sans-serif;
     text-align: center;
 }
+ul{
+    list-style: none;
+    padding-left:auto;
+    padding-right: auto;
+}
+td{
+    margin-left: auto;
+    margin-right:auto
+}
 
 #support {
     position: fixed;
@@ -94,7 +103,7 @@ body {
     width: 420px;
     height: 60px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 60px;
     border: none;
     font-family: 'Nunito Sans', sans-serif;
     line-height: 25px;
@@ -155,6 +164,8 @@ body {
 .aboutheading {
     /* heading */
     font-size: 48px;
+    font-weight: 100;
+    color: #26282d
 
 
 
@@ -216,11 +227,90 @@ body {
 
 .secondlast {
     background-color: #f16334;
+    height: 768px;
+}
+.secondlast-headings{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 46.0001px;
+
+}
+.hr3{
+    margin: 0 auto 40px;
+    width: 60px;
+    border-style: solid hidden hidden;
+    border-top-color: #ffffff;
+    border-width: 2px;
 }
 
 .table {
     background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+
 }
+.tablecell{
+height: 284px;
+width: 423px;
+/* padding: 41px 55px 51px; */
+}
+.table-list-headings{
+    color: #f16334;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: normal;
+    font-weight: 900;
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 36px;
+    padding-top: 3%;
+}
+.table-list-items{
+    width:313px;
+    margin-left: 37px;
+    margin-right: 37px;
+    height: 70px;
+}
+
+
+.table-button{
+    width: 238px;
+    height: 49px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    background-color: #ffffff;
+    color: #f16334;
+    border-style: solid;
+    border-color: #f16334;
+    border-width: 0.1px;
+    border-radius: 2px;
+    line-height: 20px;
+    letter-spacing: .6px;
+    border-radius: 2px;
+    margin-top: 23px;
+    outline: none;
+
+}
+.table-button:hover{
+    color:#ffffff;
+    background-color: #f16334;
+}
+/* #table00{
+    padding: 41px 55px ;
+}
+#table01{
+    margin: 41px 55px ;
+}
+#table10{
+    padding: 41px 55px ;
+}
+#table11{
+    padding: 41px 55px ;
+} */
 
 .footer {
     background-color: #f16334;
