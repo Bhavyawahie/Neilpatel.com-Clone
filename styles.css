@@ -19,11 +19,12 @@ table {
     margin: 0 auto;
     table-layout: fixed;
 }
-strong{
+
+strong {
     font-weight: 800;
 }
 
-table td {
+.tablecell {
     border: 1px solid #0000002d;
 }
 
@@ -67,7 +68,7 @@ td {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border-width: 0;
-    outline:none;
+    outline: none;
 }
 
 #support:hover {
@@ -251,7 +252,8 @@ td {
 
     float: right;
 }
-.mid-content{
+
+.mid-content {
     color: #43464b;
     opacity: 75%;
 }
@@ -267,7 +269,7 @@ td {
     font-size: 36px;
     font-weight: 400;
     line-height: 46.0001px;
-    margin: 0 auto ;
+    margin: 0 auto;
     padding-top: 120px;
 
 }
@@ -347,17 +349,109 @@ td {
     border-top: 0.1px solid #ffffff27;
     background-color: #f16334;
 }
-/* .footer-name-heading-td{
-    width: 661px;
-} */
-.footer-name-heading{
-    
-    width: 250px;
-    padding-left: 15px;
+
+.footer-container {
+    width: 75%;
+    margin: 4% auto 0;
 
 }
 
-.sm-buttons{
-    width: 1px;
-    height: 1px;
+/* .footer-name-heading-td{
+    width: 40%;
+}*/
+
+.footer-name-heading{
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: bolder;
+    width: 23%;
+    display: inline-block;
+    padding-left: 0px;
+} 
+.row-one-button-table-container{
+       width: fit-content;
+    display: inline-block;
+    margin-left: 5%;
+    padding-left: 30px;
+}
+
+
+.row-one-button-table button {
+    color: #ffffff;
+    background-color: #f16334;
+    border-style: none;
+    border-radius: 0px;
+    outline: none;
+    padding: 0px;
+    margin-right: 17px;
+    margin-left: 47px;
+    font-weight: 100;
+}
+
+.row-one-button-table button:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.dropup {
+    position: relative;
+    display: inline-block;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+.dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropup-content a:hover {
+    color: #f16334
+}
+
+.dropup:hover .dropup-content {
+    display: block;
+}
+
+.footer-middle-row{
+    padding-left: 2.1%;
+    width: 27%;
+    margin-left:0%;
+
+}
+.footer-middle-row > a{
+    color: #ffffff;
+    background-color: #f16334;
+    padding: 0px;
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 2%;
+}
+.vr{
+    border-left: 1px solid white;
+    height: 0.6%;
+    display: inline;
+    margin-right: 2.7%;
+}
+.footer-middle-row > a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+
+.sm-buttons i{
+    color: #ffffffda;
+}
+.footer-last-section{
+    
+}
+.copyright{
+    border: 1px solid black;
 }
