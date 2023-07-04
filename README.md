@@ -1,6 +1,6 @@
 # About
 
-This webpage is my First attempt at frontend development. The given webpage tries to replicate Neil Patel's Website - [](https://neilpatel.com).
+This webpage is my First attempt at frontend development. The given webpage tries to replicate Neil Patel's Website - [neilpatel.com](https://neilpatel.com).
 <br>
 
 # Screenshots
